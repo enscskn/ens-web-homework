@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İzmir Detay - Coşkun Emlak</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .detail-container {
+            max-width: 1200px;
+            margin: 100px auto;
+            padding: 20px;
+        }
+
+        .property-details {
+            background-color: #1b1930;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .property-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .property-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            background-color: #252344;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .price {
+            font-size: 2em;
+            color: #ea2dd8;
+            margin: 20px 0;
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .feature-item {
+            background-color: #252344;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/ethlogo-white.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="index.html#info">Bilgi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="detail-container">
+        <div class="property-details">
+            <img src="./img/2.jpg" alt="İzmir Mülk" class="property-image">
+            <h1>İzmir Deniz Manzaralı Rezidans</h1>
+            <div class="price">₺8.750.000</div>
+            
+            <div class="property-info">
+                <div class="info-box">
+                    <h3>Mülk Bilgileri</h3>
+                    <p>Konum: Karşıyaka, İzmir</p>
+                    <p>Alan: 180m²</p>
+                    <p>Oda Sayısı: 3+1</p>
+                    <p>Yaş: 2</p>
+                </div>
+                
+                <div class="info-box">
+                    <h3>Açıklama</h3>
+                    <p>İzmir'in en merkezi lokasyonunda, Karşıyaka sahilinde yer alan lüks rezidans. Körfez manzarası, sosyal olanakları ve modern mimarisi ile öne çıkan projede son daire.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 30px;">Özellikler</h3>
+            <div class="features-list">
+                <div class="feature-item">Spor Salonu</div>
+                <div class="feature-item">7/24 Güvenlik</div>
+                <div class="feature-item">Kapalı Otopark</div>
+                <div class="feature-item">Deniz Manzarası</div>
+                <div class="feature-item">Merkezi Konum</div>
+                <div class="feature-item">Sosyal Alanlar</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 

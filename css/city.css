@@ -1,0 +1,53 @@
+.detail-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.property-details {
+    background-color: #1b1930;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.property-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.property-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.info-box {
+    background-color: #252344;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 2em;
+    color: #ea2dd8;
+    margin: 20px 0;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.feature-item {
+    background-color: #252344;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
